@@ -1,0 +1,68 @@
+header {
+  background-color: #95BDFF;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 50px 0;
+}
+
+section {
+  background-color: #F5F5F5;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 50%;
+  padding: 10px;
+  margin-bottom:20px;
+  margin-left: 40px
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #B4E4FF;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  img {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
